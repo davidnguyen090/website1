@@ -16,26 +16,35 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
-h1, h2, h3, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a  {
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a  {
   font-family: 'Catamaran', sans-serif;
-  color: 	white;
+  color: #1A201F;
+  font-weight: 800;
 }
 
-.home-callout, .navbar {
+h1, h2, h3 {
+  font-family: 'Catamaran', sans-serif;
+  color: white;
+}
+.navbar {
+  color: white;
+}
+
+.home-callout {
   background: #1A201F;
 }
 
 .home-callout {
-  margin-top: -20px;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  margin-top: 0px;
+  padding-top: 225px;
+  padding-bottom: 225px;
 }
 .navbar {
   border: none;
+  padding-bottom: 40px;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover  {
-  color: white;
+  color: #1A201F;
   opacity: 0.50;
 }
