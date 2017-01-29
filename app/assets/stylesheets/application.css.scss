@@ -16,35 +16,36 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a  {
+
+// Navbar font color and hover.
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a  {
   font-family: 'Catamaran', sans-serif;
   color: #1A201F;
   font-weight: 800;
+  &:hover {
+    color: #1A201F;
+    opacity: 0.75;
+  }
 }
 
+// Typography Styles.
 h1, h2, h3 {
   font-family: 'Catamaran', sans-serif;
   color: white;
 }
-.navbar {
-  color: white;
-}
 
-.home-callout {
-  background: #1A201F;
-}
-
-.home-callout {
-  margin-top: 0px;
-  padding-top: 225px;
-  padding-bottom: 225px;
-}
+// Navbar Styles.
 .navbar {
   border: none;
   padding-bottom: 40px;
+  color: white;
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover  {
-  color: #1A201F;
-  opacity: 0.50;
+// Home Page Styles.
+.home-callout {
+  background: #1A201F;
+  margin-top: 0px;
+  padding-top: 225px;
+  padding-bottom: 225px;
 }
