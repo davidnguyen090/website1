@@ -17,12 +17,16 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 // Navbar font color and hover.
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a  {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: #1A201F;
-  font-weight: 800;
+  font-weight: 700;
+  font-size: 20px;
   &:hover {
     color: #1A201F;
     opacity: 0.75;
