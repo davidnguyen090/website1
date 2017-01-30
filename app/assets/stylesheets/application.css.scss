@@ -32,10 +32,20 @@
     opacity: 0.75;
   }
 }
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
 
 // Centering Height of List.
 .navbar-default .navbar-nav > li {
   margin-top: 10px;
+}
+.navbar-default .navbar-toggle {
+  margin-top: 20px;
+  border: 2px solid #1A201F;
+  &:hover, &:focus {
+    background-color: #ECF5F0;
+  }
 }
 
 // Typography Styles.
