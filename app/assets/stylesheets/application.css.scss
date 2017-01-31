@@ -29,7 +29,7 @@
   font-size: 20px;
   &:hover {
     color: #1A201F;
-    opacity: 0.75;
+    opacity: 0.5;
   }
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -48,24 +48,25 @@
   }
 }
 
-// Typography Styles.
-h1, h2, h3 {
-  font-family: 'Catamaran', sans-serif;
-  color: white;
-}
-
 // Navbar Styles.
 .navbar {
   border: none;
   padding-top: 15px;
   padding-bottom: 10px;
   color: white;
+  opacity: 0.75;
 }
+
+// Typography Styles.
+// h1, h2, h3 {
+//   font-family: 'Catamaran', sans-serif;
+//   color: black;
+// }
 
 // Home Page Styles.
 .home-callout {
-  background: #1A201F;
-  margin-top: 0px;
+  background-color: black;
   padding-top: 225px;
+  margin-top: 0px;
   padding-bottom: 225px;
 }

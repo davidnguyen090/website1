@@ -1,0 +1,92 @@
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+}
+
+.content {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.blurb-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.blurb {
+  font-size: 30px;
+  text-align: left;
+  margin: 50px auto;
+}
+
+.name, .name-dark {
+  margin: 70px 0 0 75px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.name-dark {
+  color: grey;
+}
+
+#slide1 {
+  width: 100%;
+  background: url('Ninja.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 250px 0 600px 0;
+}
+
+#slide2 {
+  width: 100%;
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0;
+  overflow: hidden;
+  padding: 400px 0 700px 0;
+}
+
+#slide3 {
+  width: 100%;
+  background: url('Dojo.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 600px 0;
+}
